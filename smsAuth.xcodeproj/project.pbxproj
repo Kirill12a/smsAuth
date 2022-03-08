@@ -9,21 +9,31 @@
 /* Begin PBXBuildFile section */
 		D261401327D7CC9B00DA11B4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D261401227D7CC9B00DA11B4 /* AppDelegate.swift */; };
 		D261401527D7CC9B00DA11B4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D261401427D7CC9B00DA11B4 /* SceneDelegate.swift */; };
-		D261401727D7CC9B00DA11B4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D261401627D7CC9B00DA11B4 /* ViewController.swift */; };
-		D261401A27D7CC9B00DA11B4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D261401827D7CC9B00DA11B4 /* Main.storyboard */; };
+		D261401727D7CC9B00DA11B4 /* PhoneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D261401627D7CC9B00DA11B4 /* PhoneViewController.swift */; };
 		D261401C27D7CC9C00DA11B4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D261401B27D7CC9C00DA11B4 /* Assets.xcassets */; };
 		D261401F27D7CC9C00DA11B4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D261401D27D7CC9C00DA11B4 /* LaunchScreen.storyboard */; };
+		D261402727D7CE7000DA11B4 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D261402627D7CE7000DA11B4 /* GoogleService-Info.plist */; };
+		D261402927D7CEE000DA11B4 /* AuthManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D261402827D7CEE000DA11B4 /* AuthManager.swift */; };
+		D261402C27D7D6C200DA11B4 /* AccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D261402B27D7D6C200DA11B4 /* AccountViewController.swift */; };
+		D261402E27D7D6CF00DA11B4 /* SMSCodeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D261402D27D7D6CF00DA11B4 /* SMSCodeViewController.swift */; };
+		F766E8F3A9072A79895049BF /* Pods_smsAuth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBCB1AB343E443CCAC3D2573 /* Pods_smsAuth.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		397E8EF4E66A42387FB47E4B /* Pods-smsAuth.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-smsAuth.release.xcconfig"; path = "Target Support Files/Pods-smsAuth/Pods-smsAuth.release.xcconfig"; sourceTree = "<group>"; };
+		85E8A4EFD77B101F74B46547 /* Pods-smsAuth.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-smsAuth.debug.xcconfig"; path = "Target Support Files/Pods-smsAuth/Pods-smsAuth.debug.xcconfig"; sourceTree = "<group>"; };
 		D261400F27D7CC9B00DA11B4 /* smsAuth.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = smsAuth.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D261401227D7CC9B00DA11B4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D261401427D7CC9B00DA11B4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		D261401627D7CC9B00DA11B4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		D261401927D7CC9B00DA11B4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D261401627D7CC9B00DA11B4 /* PhoneViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneViewController.swift; sourceTree = "<group>"; };
 		D261401B27D7CC9C00DA11B4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D261401E27D7CC9C00DA11B4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D261402027D7CC9C00DA11B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D261402627D7CE7000DA11B4 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		D261402827D7CEE000DA11B4 /* AuthManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthManager.swift; sourceTree = "<group>"; };
+		D261402B27D7D6C200DA11B4 /* AccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountViewController.swift; sourceTree = "<group>"; };
+		D261402D27D7D6CF00DA11B4 /* SMSCodeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SMSCodeViewController.swift; sourceTree = "<group>"; };
+		DBCB1AB343E443CCAC3D2573 /* Pods_smsAuth.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_smsAuth.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +41,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F766E8F3A9072A79895049BF /* Pods_smsAuth.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		96DE99ECB4D2F226F905C2D7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DBCB1AB343E443CCAC3D2573 /* Pods_smsAuth.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A0F74ED4B79F779E948B8F10 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				85E8A4EFD77B101F74B46547 /* Pods-smsAuth.debug.xcconfig */,
+				397E8EF4E66A42387FB47E4B /* Pods-smsAuth.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		D261400627D7CC9B00DA11B4 = {
 			isa = PBXGroup;
 			children = (
 				D261401127D7CC9B00DA11B4 /* smsAuth */,
 				D261401027D7CC9B00DA11B4 /* Products */,
+				A0F74ED4B79F779E948B8F10 /* Pods */,
+				96DE99ECB4D2F226F905C2D7 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +86,26 @@
 		D261401127D7CC9B00DA11B4 /* smsAuth */ = {
 			isa = PBXGroup;
 			children = (
+				D261402A27D7D69F00DA11B4 /* Controllers */,
 				D261401227D7CC9B00DA11B4 /* AppDelegate.swift */,
 				D261401427D7CC9B00DA11B4 /* SceneDelegate.swift */,
-				D261401627D7CC9B00DA11B4 /* ViewController.swift */,
-				D261401827D7CC9B00DA11B4 /* Main.storyboard */,
+				D261402627D7CE7000DA11B4 /* GoogleService-Info.plist */,
 				D261401B27D7CC9C00DA11B4 /* Assets.xcassets */,
 				D261401D27D7CC9C00DA11B4 /* LaunchScreen.storyboard */,
 				D261402027D7CC9C00DA11B4 /* Info.plist */,
+				D261402827D7CEE000DA11B4 /* AuthManager.swift */,
 			);
 			path = smsAuth;
+			sourceTree = "<group>";
+		};
+		D261402A27D7D69F00DA11B4 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				D261401627D7CC9B00DA11B4 /* PhoneViewController.swift */,
+				D261402B27D7D6C200DA11B4 /* AccountViewController.swift */,
+				D261402D27D7D6CF00DA11B4 /* SMSCodeViewController.swift */,
+			);
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +115,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D261402327D7CC9C00DA11B4 /* Build configuration list for PBXNativeTarget "smsAuth" */;
 			buildPhases = (
+				2C85F1DC72AB3E6449A522D3 /* [CP] Check Pods Manifest.lock */,
 				D261400B27D7CC9B00DA11B4 /* Sources */,
 				D261400C27D7CC9B00DA11B4 /* Frameworks */,
 				D261400D27D7CC9B00DA11B4 /* Resources */,
+				F3AB99A061E50195CD0AA959 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -126,35 +169,72 @@
 			buildActionMask = 2147483647;
 			files = (
 				D261401F27D7CC9C00DA11B4 /* LaunchScreen.storyboard in Resources */,
+				D261402727D7CE7000DA11B4 /* GoogleService-Info.plist in Resources */,
 				D261401C27D7CC9C00DA11B4 /* Assets.xcassets in Resources */,
-				D261401A27D7CC9B00DA11B4 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2C85F1DC72AB3E6449A522D3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-smsAuth-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F3AB99A061E50195CD0AA959 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-smsAuth/Pods-smsAuth-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-smsAuth/Pods-smsAuth-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-smsAuth/Pods-smsAuth-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		D261400B27D7CC9B00DA11B4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D261401727D7CC9B00DA11B4 /* ViewController.swift in Sources */,
+				D261401727D7CC9B00DA11B4 /* PhoneViewController.swift in Sources */,
+				D261402C27D7D6C200DA11B4 /* AccountViewController.swift in Sources */,
+				D261402927D7CEE000DA11B4 /* AuthManager.swift in Sources */,
 				D261401327D7CC9B00DA11B4 /* AppDelegate.swift in Sources */,
 				D261401527D7CC9B00DA11B4 /* SceneDelegate.swift in Sources */,
+				D261402E27D7D6CF00DA11B4 /* SMSCodeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		D261401827D7CC9B00DA11B4 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				D261401927D7CC9B00DA11B4 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		D261401D27D7CC9C00DA11B4 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -284,6 +364,7 @@
 		};
 		D261402427D7CC9C00DA11B4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 85E8A4EFD77B101F74B46547 /* Pods-smsAuth.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -294,7 +375,6 @@
 				INFOPLIST_FILE = smsAuth/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -312,6 +392,7 @@
 		};
 		D261402527D7CC9C00DA11B4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 397E8EF4E66A42387FB47E4B /* Pods-smsAuth.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -322,7 +403,6 @@
 				INFOPLIST_FILE = smsAuth/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
