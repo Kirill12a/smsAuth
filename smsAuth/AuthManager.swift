@@ -9,10 +9,9 @@ import Foundation
 import FirebaseAuth
 
 class AuthManager {
+
   static let shared = AuthManager()
-
   private let auth = Auth.auth()
-
   private var verificationId: String?
 
   public func startAuth(phoneNumber: String, comletion: @escaping(Bool)->Void){
@@ -21,6 +20,7 @@ class AuthManager {
         comletion(false)
         return
       }
+
       self?.verificationId = verifactionId
       comletion(true)
     }
@@ -42,6 +42,4 @@ class AuthManager {
       comletion(true)
     }
   }
-
-
 }

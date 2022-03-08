@@ -12,7 +12,7 @@ class SMSCodeViewController: UIViewController, UITextFieldDelegate {
   private let codeField: UITextField = {
     let field = UITextField()
     field.backgroundColor = .secondarySystemBackground
-    field.placeholder = "Enter code"
+    field.placeholder = "Введите код"
     field.textAlignment = .center
     field.returnKeyType = .continue
     return field
