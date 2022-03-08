@@ -12,7 +12,7 @@ class PhoneViewController: UIViewController, UITextFieldDelegate {
   private let phoneField: UITextField = {
     let field = UITextField()
     field.backgroundColor = .secondarySystemBackground
-    field.placeholder = "Phone number"
+    field.placeholder = "Номер мобилки"
     field.textAlignment = .center
     field.returnKeyType = .continue
     return field
